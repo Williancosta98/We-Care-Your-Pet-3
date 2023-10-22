@@ -1,0 +1,155 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 44px;
+    margin-left: 76px;
+}
+
+.link-menu{
+    margin-left: 32px;
+    cursor: pointer;
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.link-menu:hover{
+    opacity: 0.5;
+}
+
+.link-menu:active{
+    opacity: 0.1;
+}
+
+.button-menu{
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 32px;
+}
+
+.button-menu:hover{
+    opacity: 0.8;
+}
+
+.button-menu:active{
+    color: black;
+}
+
+.logo-image{
+   width: 568px;
+   height: 500px;
+   display: inline-block; 
+   margin: 144px 86px 0 125px;
+}
+
+section{
+    display: inline-block;
+}
+
+h1{
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    width: 513px;
+    height: 122px;
+    margin-bottom: 7px;
+}
+
+h2{
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    width: 448px;
+    height: 71px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    height: 87px;
+    margin-bottom: 130px;
+}
+
+.bottom-button{
+    width: 239px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 35.5px;
+    background: #ADFF00;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    box-shadow: -2px 5px 5px gainsboro;
+}
+
+.bottom-button:hover{
+    opacity: 0.8;
+}
+
+.bottom-button:active{
+    opacity: 0.6;
+    color: white;
+}
+
+@media screen and (max-width:900px){
+    *{
+        height: 100vw;
+        width: 50vh;
+    }
+
+    header{
+        display: none;
+    }
+
+    .logo-image{
+        width: 354px;
+        height: 317px;
+        position: relative;
+        left: 7%;
+    }
+
+    h1{
+        position: relative;
+        left: 40%;
+        top: 15px;
+        height: 52px;
+        font-size: 65px;
+        font-weight: 900;
+    }
+
+    h2{
+        font-size: 39px;
+        font-weight: 500;
+        height: 37px;
+        position: relative;
+        left: 44%;
+        top: 35px;
+    }
+
+    p{
+        display: none;
+    }
+
+    .bottom-button{
+        position: relative;
+        top: 15%;
+        left: 210px
+    }
+}
